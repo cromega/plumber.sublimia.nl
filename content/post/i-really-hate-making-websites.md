@@ -5,8 +5,6 @@ title = "I really hate making websites"
 
 +++
 
-## I really hate making websites
-
 I **really** do. It overloads my patience containment field generators.
 
 <!--more-->
