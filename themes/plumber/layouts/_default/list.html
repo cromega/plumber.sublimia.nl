@@ -1,0 +1,8 @@
+
+anyad
+<div id="articles">
+{{ range first 10 .Site.Pages }}
+  <p>{{ .Title }}</p>
+  <p>{{ .Summary }}</p>
+{{ end }}
+</div>

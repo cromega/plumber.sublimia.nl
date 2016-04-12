@@ -1,0 +1,10 @@
+name: Plumber
+description: le theme
+homepage: nil
+tags: ["", ""]
+features: ["", ""]
+min_version: 0.14
+
+author:
+  name: Bence Monus
+  homepage: majd

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <base href="{{ .Site.BaseURL }}">
+    <title>Plumbing the Internets</title>
+    <link rel="stylesheet" type="text/css" href="/css/plumber.css" />
+  </head>
+
+  <body>
+    <h1>The plumber of the Internets</h1>
+
+    <div id="articles">
+    {{ range first 10 .Site.Pages }}
+      <p>{{ .Title }}</p>
+      <p>{{ .Summary }}</p>
+      <a href="{{ .Permalink }}">Read it!</a>
+    {{ end }}
+</div>
+  </body>
+</html>
