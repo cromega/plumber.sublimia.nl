@@ -9,7 +9,40 @@ body {
   border: 1px solid gray;
 }
 
-#content {
+#page {
   margin: 30px;
 }
 
+#content {
+}
+
+.nofloat {
+  clear: both;
+}
+
+#posts {
+
+}
+
+#menu {
+  height: 300px;
+  float: left;
+  clear: left;
+  margin-right: 30px;
+}
+
+#menu ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+#menu li {
+}
+
+#menu li.child {
+  padding-left: 10px;
+}
+
+#menu li.separator {
+  margin-bottom: 15px;
+}

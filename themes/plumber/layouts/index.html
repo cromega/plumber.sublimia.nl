@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 
 <html>
+
   {{ partial "head" }}
 
   <body>
-    <div id="content">
-      <h1>The plumber of the Internets</h1>
+    <div id="page">
+      {{ partial "header" }}
 
-      <div id="menu"></div>
-      <div id="posts">
+      {{ partial "menu" . }}
+      <div id="content">
         {{ partial "post/list" . }}
       </div>
-    </div>
+      <div class="nofloat"></div>
 
-    {{ partial "footer" }}
+      {{ partial "footer" }}
+    </div>
   </body>
 </html>
 
