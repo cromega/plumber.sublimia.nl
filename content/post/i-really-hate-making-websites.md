@@ -15,4 +15,4 @@ Making a website, however, is one of those things I get fed up with even before 
 
 So this time I'm making one for my own pleasure. I need a place to rant about all the things that suck.
 
-It was bloody high time I had one.
+It was bloody high time.
