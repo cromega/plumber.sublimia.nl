@@ -7,13 +7,16 @@ body {
   width: 1080px;
   background-color: white;
   border: 1px solid gray;
+  font-family: "Helvetica", sans-serif;
 }
 
 #page {
   margin: 30px;
+  min-height: 600px;
 }
 
 #content {
+  padding-left: 150px;
 }
 
 .nofloat {
@@ -28,10 +31,12 @@ body {
 }
 
 #menu {
-  height: 300px;
   float: left;
   clear: left;
   margin-right: 30px;
+  background-color: lightgray;
+  width: 200px;
+  min-height: 400px;
 }
 
 #menu ul {
@@ -39,7 +44,20 @@ body {
   list-style-type: none;
 }
 
+#menu ul.level1 {
+  padding-left: 10px;
+}
+
 #menu li {
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu a:hover {
+  text-decoration: underline;
 }
 
 #menu li.child {

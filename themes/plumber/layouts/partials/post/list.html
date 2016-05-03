@@ -1,9 +1,11 @@
 <div id="posts">
   {{ range first 10 (where .Data.Pages "Section" "post") }}
     <div class="summary">
-      <p>{{ .Title }}</p>
-      <p>{{ .Summary }}</p>
-      <a href="{{ .Permalink }}" class="read-more">Read more!</a>
+      <p class="title">{{ .Title }}</p>
+      <p class="date">{{ .Date.Format "2 Jan 06, 3:04pm" }}</p>
+      <p class="tags">{{ .Params.tags }}</p>
+      <p class="body">{{ .Summary }}</p>
+      <a class="read-more" href="{{ .Permalink }}" >Read more!</a>
     </div>
   {{ end }}
 </div>
