@@ -12,5 +12,11 @@
     </li>
     <li class="separator"></li>
     <li class="parent">Tags</li>
+    <ul class="level2">
+      {{ range $key, $tag := .Site.Taxonomies.tags }}
+      <li class="child">{{ $key }}</li>
+      {{ end }}
+    </ul>
+
   </ul>
 </div>
