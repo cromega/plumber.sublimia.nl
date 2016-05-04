@@ -3,3 +3,4 @@ languageCode: en-us
 title: The plumber of the Internets
 taxonomies:
   tag: tags
+  language: languages
