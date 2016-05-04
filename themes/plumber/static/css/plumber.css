@@ -13,14 +13,18 @@ body {
 #page {
   margin: 30px;
   min-height: 600px;
+  overflow: hidden;
 }
 
 #content {
-  padding-left: 150px;
+  float: right;
+  width: 780px;
 }
 
-.nofloat {
-  clear: both;
+#content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #posts {
@@ -32,8 +36,6 @@ body {
 
 #menu {
   float: left;
-  clear: left;
-  margin-right: 30px;
   background-color: lightgray;
   width: 200px;
   min-height: 400px;
