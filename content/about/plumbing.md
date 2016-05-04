@@ -5,7 +5,7 @@ title = "Plumbing"
 
 +++
 
-![](http://www.freeindex.co.uk/media/listingpics/265/455/pipework.jpg)
+<!--![](http://www.freeindex.co.uk/media/listingpics/265/455/pipework.jpg)-->
 
 Let's start this page with a bit of detour.
 
@@ -19,7 +19,7 @@ Generally speaking, I'm enjoying it a lot. Most of the time. When things work. A
 
 At this point, the attentive reader might have made a mental note about pitchforks not being notoriously effective as hammers. If you don't see why, here's a pitchfork:
 
-![](http://www.photo-dictionary.com/photofiles/list/3497/4638pitchfork.jpg)
+<!--![](http://www.photo-dictionary.com/photofiles/list/3497/4638pitchfork.jpg)-->
 
 Everyone who has something to do with the tech industry understands this whole "using weird tools for the job" and "duct taping everything" shenanigans so I'm not going to elaborate on it.
 
@@ -35,7 +35,7 @@ In reality, I feel like a plumber who hammers things using the tools at hand, or
 
 And when I have this:
 
-![](http://melbourne24hourplumbing.com.au/wp-content/uploads/2013/09/Quick-fix-tap.jpg)
+<!--![](http://melbourne24hourplumbing.com.au/wp-content/uploads/2013/09/Quick-fix-tap.jpg)-->
 
 My work is finally done.
 
