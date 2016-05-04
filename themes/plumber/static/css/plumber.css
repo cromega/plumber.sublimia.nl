@@ -27,6 +27,7 @@ body {
   margin-right: auto;
 }
 
+
 #posts {
 
 }
@@ -36,7 +37,7 @@ body {
 
 #menu {
   float: left;
-  background-color: lightgray;
+  background: linear-gradient(to bottom, rgba(220, 220, 220, 1), rgba(220, 220, 220, 0));
   width: 200px;
   min-height: 400px;
 }
