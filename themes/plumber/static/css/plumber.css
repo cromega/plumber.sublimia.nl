@@ -1,13 +1,16 @@
 html {
-  background-color: #eeeeee;
 }
 
 body {
   margin: auto;
   width: 1080px;
   background-color: white;
-  border: 1px solid gray;
+  border: 8px solid gray;
   font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  overflow: hidden;
 }
 
 #page {
@@ -27,12 +30,23 @@ body {
   margin-right: auto;
 }
 
-
-#posts {
-
+#summaries .summary {
 }
 
-#posts .summary {
+#summaries .title {
+  font-size: 200%;
+}
+
+#summaries .tags {
+  color: gray;
+}
+
+#summaries .date {
+  float: right;
+}
+
+#summaries .summary {
+  margin-top: 10px;
 }
 
 #menu {
@@ -54,12 +68,12 @@ body {
 #menu li {
 }
 
-#menu a {
+.simplelink {
   text-decoration: none;
   color: black;
 }
 
-#menu a:hover {
+.simplelink:hover {
   text-decoration: underline;
 }
 
@@ -70,3 +84,4 @@ body {
 #menu li.separator {
   margin-bottom: 15px;
 }
+

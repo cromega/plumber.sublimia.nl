@@ -1,11 +1,17 @@
-<div id="posts">
+<div id="summaries">
   {{ range first 10 (where .Data.Pages "Section" "post") }}
-    <div class="summary">
-      <p class="title">{{ .Title }}</p>
-      <p class="date">{{ .Date.Format "2 Jan 06, 3:04pm" }}</p>
-      <p class="tags">{{ .Params.tags }}</p>
-      <p class="body">{{ .Summary }}</p>
-      <a class="read-more" href="{{ .Permalink }}" >Read more!</a>
-    </div>
+  <div class="summary">
+    <p class="container">
+      <span class="title">{{ .Title }}</span>
+      <span class="date">/{{ .Date.Format "2 Jan 2006" }}/</span>
+    </p>
+    <p class="tags">
+      {{ range $tag := .Params.tags }}
+      <span>{{ $tag }}</span>
+      {{ end }}
+    </p>
+    <p class="body">{{ .Summary }}</p>
+    <a class="simplelink read-more" href="{{ .Permalink }}" >Read the whole thing. Now!</a>
+  </div>
   {{ end }}
 </div>
