@@ -19,6 +19,14 @@ body {
   overflow: hidden;
 }
 
+#header {
+  margin-bottom: 20px;
+}
+
+#header .title {
+  font-size: 300%;
+}
+
 #content {
   float: right;
   width: 780px;
@@ -50,10 +58,15 @@ body {
 }
 
 #menu {
+  position: absolute;
+  top: 10px;
   float: left;
   background: linear-gradient(to bottom, rgba(220, 220, 220, 1), rgba(220, 220, 220, 0));
   width: 200px;
   min-height: 400px;
+}
+
+#menu a {
 }
 
 #menu ul {
@@ -62,6 +75,7 @@ body {
 }
 
 #menu ul.level1 {
+  padding-top: 120px;
   padding-left: 10px;
 }
 
