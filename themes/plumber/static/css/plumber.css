@@ -48,6 +48,9 @@ body {
 
 #summaries .tags {
   color: gray;
+  font-size: 80%;
+}
+
 #summaries .tags span {
   margin-right: 5px;
 }
