@@ -6,7 +6,7 @@ body {
   width: 1080px;
   background-color: white;
   border: 8px solid gray;
-  font-family: "Helvetica", sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 .container {
