@@ -112,6 +112,10 @@ body {
   content: "↢ ";
 }
 
+.back:visited {
+  color: black;
+}
+
 .read-more::after {
   content: " ↣";
 }
