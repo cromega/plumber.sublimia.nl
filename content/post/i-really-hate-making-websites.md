@@ -15,6 +15,6 @@ I have never had a problem with wasting my whole day with the most daunting task
 
 Making a website, however, is one of those things I get fed up with even before I start. Can't say I have never done it, though. I used to ducttape rails applications as well, among other things.
 
-So this time I'm making one for my own pleasure. I need a place to rant about all the things that suck.
+So this time I'm making one for my own <del>pleasure</del> folly. I need a place to rant about all the things that suck.
 
 It was bloody high time.
