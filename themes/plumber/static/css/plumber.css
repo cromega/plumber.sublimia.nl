@@ -39,23 +39,20 @@ body {
   margin-right: auto;
 }
 
-#summaries .summary {
-}
-
-#summaries .title {
+#summaries .title, #post .title {
   font-size: 200%;
 }
 
-#summaries .tags {
+.tags {
   color: gray;
   font-size: 80%;
 }
 
-#summaries .tags span {
+.tags span {
   margin-right: 5px;
 }
 
-#summaries .date {
+#summaries .date, #post .date {
   float: right;
 }
 

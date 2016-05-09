@@ -10,12 +10,23 @@
 
       {{ partial "menu" . }}
       <div id="content">
-        <a class="simplelink back" href="/">Back</a>
-
-        <h2>{{ .Title }}</h2>
-
         <div id="post">
-          {{ .Content }}
+          <a class="simplelink back" href="/">Back</a>
+
+          <p class="container">
+            <span class="title">{{ .Title }}</span>
+            <span class="date">/{{ .Date.Format "2 Jan 2006" }}/</span>
+          </p>
+
+          <p class="tags">
+            {{ range $tag := .Params.tags }}
+            <span>{{ $tag }}</span>
+            {{ end }}
+          </p>
+
+          <div id="post">
+            {{ .Content }}
+          </div>
         </div>
       </div>
 
