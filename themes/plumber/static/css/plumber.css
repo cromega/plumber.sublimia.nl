@@ -66,7 +66,7 @@ body {
   position: absolute;
   top: 8px;
   float: left;
-  background: linear-gradient(to bottom, gray, rgba(220, 220, 220, 0));
+  background: linear-gradient(to bottom, gray, white);
   width: 200px;
   min-height: 400px;
 }
