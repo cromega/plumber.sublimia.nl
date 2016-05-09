@@ -87,6 +87,10 @@ body {
   color: black;
 }
 
+.back::before {
+  content: "↢ ";
+}
+
 .simplelink:hover {
   text-decoration: underline;
 }
