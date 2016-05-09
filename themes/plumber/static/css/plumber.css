@@ -91,6 +91,10 @@ body {
   content: "↢ ";
 }
 
+.read-more::after {
+  content: " ↣";
+}
+
 .simplelink:hover {
   text-decoration: underline;
 }
