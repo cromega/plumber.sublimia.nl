@@ -17,6 +17,11 @@
       <li class="child"> {{ $key }}</li>
       {{ end }}
     </ul>
-
   </ul>
+
+  {{ if isset .Params "tags" }}
+  <div id="tagoverlay">
+    <span>{{ index .Params.tags 0 }}</span>
+  </div>
+  {{ end }}
 </div>

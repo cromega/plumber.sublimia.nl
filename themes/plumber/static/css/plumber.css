@@ -107,6 +107,20 @@ body {
   color: black;
 }
 
+#tagoverlay {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  position: relative;
+  top: 200px;
+  left: 6px;
+}
+
+#tagoverlay span {
+  font-size: 300%;
+  letter-spacing: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .simplelink {
   text-decoration: none;
   color: black;
