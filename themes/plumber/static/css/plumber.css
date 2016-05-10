@@ -15,15 +15,18 @@ body {
 }
 
 #page {
-  margin: 10px 30px 30px 0px;
+  margin: 0px 30px 30px 0px;
   min-height: 600px;
   overflow: hidden;
 }
 
 #header {
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-left: 260px;
+  padding-left: 200px;
+  background-color: gray;
+  color: white;
+  vertical-align: middle;
+  height: 120px;
+  line-height: 120px;
 }
 
 #header .title {
@@ -33,6 +36,7 @@ body {
 #content {
   float: right;
   width: 780px;
+  padding-top: 20px;
 }
 
 #content img {
@@ -64,8 +68,6 @@ body {
 }
 
 #menu {
-  position: absolute;
-  top: 8px;
   float: left;
   background: linear-gradient(to bottom, gray, white);
   width: 200px;
@@ -81,7 +83,6 @@ body {
 }
 
 #menu ul.level1 {
-  padding-top: 120px;
   margin-left: 70px;
 }
 
