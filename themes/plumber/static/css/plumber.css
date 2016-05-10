@@ -90,6 +90,14 @@ body {
   margin-left: 70px;
 }
 
+#menu li.parent {
+  font-weight: bold;
+}
+
+#menu li.child {
+  font-weight: normal;
+}
+
 #menu li.child:first-child::before {
   content: " ↳";
 }
