@@ -49,6 +49,10 @@ body {
   font-size: 200%;
 }
 
+#summaries {
+  margin-top: 22px;
+}
+
 .tags {
   color: gray;
   font-size: 80%;
