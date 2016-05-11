@@ -13,8 +13,9 @@
     <li class="separator"></li>
     <li class="parent">Tags</li>
     <ul class="level2">
-      {{ range $key, $tag := .Site.Taxonomies.tags }}
-      <li class="child"> {{ $key }}</li>
+      {{ range $tag, $idx := .Site.Taxonomies.tags }}
+      <!--<li class="child"><a class="simplelink" href="tags/{{ $tag }}">{{ $tag }}</a></li>-->
+      <li class="child">{{ $tag }}</li>
       {{ end }}
     </ul>
   </ul>
