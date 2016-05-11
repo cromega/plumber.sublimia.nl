@@ -37,8 +37,9 @@ body {
 
 #content {
   float: right;
-  width: 780px;
-  padding: 20px 10px 0px 0px;
+  width: 750px;
+  padding: 20px 60px 20px 0px;
+  text-align: justify;
 }
 
 #content img {
