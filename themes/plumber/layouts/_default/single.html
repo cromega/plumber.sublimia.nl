@@ -14,7 +14,7 @@
           <a class="simplelink back" href="/">Back</a>
 
           <p class="container">
-            <span class="title">{{ .Title }}</span>
+            <span class="title">{{ .Title | title }}</span>
             <span class="date">/{{ .Date.Format "2 Jan 2006" }}/</span>
           </p>
 
