@@ -96,15 +96,7 @@ body {
 
 #menu li.child {
   font-weight: normal;
-}
-
-#menu li.child:first-child::before {
-  content: " ↳";
-}
-
-#menu li.child:not(:first-child)::before {
   margin-left: 15px;
-  content: "  ";
 }
 
 #menu li.separator {
