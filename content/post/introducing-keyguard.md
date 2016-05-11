@@ -7,7 +7,7 @@ languages = ["english"]
 
 +++
 
-At Pivotal we often change workstations. We do pair-programming every day, we tend to rotate pairs every (other (or so)) day so enginners usually don't have their own desks and machines to work on. One of the truly dreadful problems this setup creates is ... ... ... wait for it ... ... ... managing SSH keys for GitHub authentication.
+At Pivotal we often change workstations. We do pair-programming every day, we tend to rotate pairs every (other (or so)) day so enginners usually don't have their own desks and machines to work on. One of the truly dreadful problems this setup creates is managing SSH keys for GitHub authentication.
 
 <!--more-->
 
