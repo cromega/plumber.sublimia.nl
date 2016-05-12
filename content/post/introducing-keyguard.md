@@ -12,15 +12,15 @@ At Pivotal we often change workstations. We do pair-programming every day, we te
 
 Engineers tend to have their SSH keys on an encrypted pendrive which they plug in, run a script from it that adds the key to the ssh-agent with a day expiry and they start hacking happily.
 
-For various reasons I couldn't have that. The reasons included things like lazyness and a difficult to explain reluctance to have more than one pendrive on my keychain. And I really didn't want to encrypt mine.
+For various reasons I couldn't have that. The reasons included things like laziness and a difficult to explain reluctance to have more than one pendrive on my keychain. And I really didn't want to encrypt mine.
 
 After some time of giving the puppy eyes to whichever teammate was sitting next to me to load their SSH keys every day I decided it was time to engineer the everloving bejesus out of this situation.
 
 The result of this effort is [KeyGuard](https://github.com/cromega/keyguard)!
 
-The unsophisticated name hides a similarly unsophisticated app that can serve an SSH key over HTTP as a response to a request that has to pass some sort of authentication.
+The unsophisticated name hides a similarly unsophisticated app that can serve an SSH key over HTTPS as a response to a request that has to pass some sort of authentication.
 
-Since I'm a happy [YubiKey](https://www.yubico.com/faq/yubikey/) user I can get my SSH key by curling an endpoint and touching my one-time password generator button.
+Since I'm a happy [YubiKey](https://www.yubico.com/faq/yubikey/) user I can get my SSH key by curl-ing an endpoint and touching my one-time password generator button.
 
 It works like this:
 
@@ -33,7 +33,4 @@ Lifetime set to 32400 seconds
 
 Much secure, very convenience, amaze!
 
-In fact, KeyGuard only supports Yubi authentication at the moment but as soon as I get a bit less lazy I will add some other schemes to it.
-
-
-
+In fact, KeyGuard only supports Yubi authentication at the moment, but as soon as I get a bit less lazy I will add some other schemes to it. I will also accept pull requests - if they are good enough to warrant the effort!
