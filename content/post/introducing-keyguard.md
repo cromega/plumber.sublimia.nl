@@ -33,4 +33,4 @@ Lifetime set to 32400 seconds
 
 Much secure, very convenience, amaze!
 
-In fact, KeyGuard only supports Yubi authentication at the moment, but as soon as I get a bit less lazy I will add some other schemes to it. I will also accept pull requests - if they are good enough to warrant the effort!
+In fact, KeyGuard only supports Yubi authentication at the moment but as soon as I get a bit less lazy I will add some other schemes to it. I will also accept pull requests because there is no shame in letting others do your work.
