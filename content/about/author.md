@@ -10,7 +10,7 @@ I am the alpha and the **[@cromega](https://github.com/cromega)**.
 
 Primarily, at least for the sake of this page, I'm a software engineer mostly involved with infrastructure and platform.
 
-I have done some varied things over the course of my carreer including sysadmin stuff, automated testing, web development, ripping off glass wool from the wall and the ceiling. Yes, during my sysadmin days I built a server room. The hard way. Never again.
+I have done some varied things over the course of my career including sysadmin stuff, automated testing, web development, ripping off glass wool from the wall and the ceiling. Yes, during my sysadmin days I built a server room. The hard way. Never again.
 
 Still, it was my favourite job so I guess it's no wonder I finally jumped on the PAAS bandwagon and became heavily involved with things like Cloud Foundry and BOSH.
 
