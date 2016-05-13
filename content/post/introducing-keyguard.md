@@ -10,7 +10,7 @@ At Pivotal we often change workstations. We do pair-programming every day, we te
 
 <!--more-->
 
-Engineers tend to have their SSH keys on an encrypted pendrive which they plug in, run a script from it that adds the key to the ssh-agent with a day expiry and they start hacking happily.
+Engineers tend to have their SSH keys on an encrypted pendrive, like [explained here](http://tammersaleh.com/posts/building-an-encrypted-usb-drive-for-your-ssh-keys-in-os-x/), which they plug in, run a script from it that adds the key to the ssh-agent with a day expiry and they start hacking happily.
 
 For various reasons I couldn't have that. The reasons included things like laziness and a difficult to explain reluctance to have more than one pendrive on my keychain. And I really didn't want to encrypt mine.
 
