@@ -2,7 +2,7 @@
 date = "2016-05-11T23:51:05+01:00"
 title = "introducing keyguard"
 tags = ["software"]
-languages = ["english"]
+language = "english"
 
 +++
 

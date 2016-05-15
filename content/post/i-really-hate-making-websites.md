@@ -2,7 +2,7 @@
 date = "2016-04-11T21:17:43Z"
 title = "I really hate making websites"
 tags = ["software"]
-languages = ["english"]
+language = "english"
 
 +++
 
